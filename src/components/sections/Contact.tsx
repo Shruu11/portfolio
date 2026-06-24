@@ -122,8 +122,7 @@ export default function Contact() {
             variants={fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-outfit font-bold mb-4"
           >
-            {"Let's Build"}{" "}
-            <span className="gradient-text-alt">Something</span>
+            {"Let's Build"} <span className="gradient-text-alt">Something</span>
           </motion.h2>
           <motion.p
             variants={fadeInUp}
