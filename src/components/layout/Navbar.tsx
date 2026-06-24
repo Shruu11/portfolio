@@ -35,7 +35,7 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-          isScrolled ? "glass py-4 shadow-lg" : "bg-transparent py-6"
+          isScrolled ? "glass py-4 shadow-lg" : "bg-transparent py-6",
         )}
       >
         <div className="container mx-auto px-6 flex items-center justify-between">
@@ -57,7 +57,7 @@ export default function Navbar() {
                 onClick={() => scrollToSection(link.href)}
                 className={cn(
                   "relative text-sm font-medium transition-colors hover:text-violet",
-                  activeSection === link.href ? "text-violet" : "text-gray-300"
+                  activeSection === link.href ? "text-violet" : "text-gray-300",
                 )}
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -86,7 +86,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Let's Collaborate
+            Let&apos;s Collaborate
           </motion.a>
 
           {/* Mobile Menu Button */}
@@ -166,7 +166,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: NAV_LINKS.length * 0.1 }}
                 >
-                  Let's Collaborate
+                  Let&apos;s Collaborate
                 </motion.a>
               </div>
             </motion.div>

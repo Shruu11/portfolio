@@ -25,7 +25,7 @@ export default function Contact() {
   >("idle");
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -122,13 +122,14 @@ export default function Contact() {
             variants={fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-outfit font-bold mb-4"
           >
-            Let's Build <span className="gradient-text-alt">Something</span>
+            Let&apos;s Build{" "}
+            <span className="gradient-text-alt">Something</span>
           </motion.h2>
           <motion.p
             variants={fadeInUp}
             className="text-gray-400 text-lg max-w-2xl mx-auto"
           >
-            Have a project in mind? Let's collaborate and create something
+            Have a project in mind? Let&apos;s collaborate and create something
             amazing together!
           </motion.p>
         </motion.div>

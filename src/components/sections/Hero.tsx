@@ -76,7 +76,9 @@ export default function Hero() {
           className="mb-4 flex items-center justify-center gap-2"
         >
           <span className="text-2xl animate-float">👋</span>
-          <p className="text-xl md:text-2xl text-gray-300 font-dm">Hi, I'm</p>
+          <p className="text-xl md:text-2xl text-gray-300 font-dm">
+            Hi, I&apos;m
+          </p>
         </motion.div>
 
         {/* Animated Name */}
@@ -149,7 +151,7 @@ export default function Hero() {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
           >
-            Let's Collaborate
+            Let&apos;s Collaborate
             <span className="group-hover:rotate-12 transition-transform">
               💬
             </span>
