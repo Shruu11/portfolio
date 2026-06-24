@@ -86,7 +86,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Let&apos;s Collaborate
+            {"Let's Collaborate"}
           </motion.a>
 
           {/* Mobile Menu Button */}
@@ -166,7 +166,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: NAV_LINKS.length * 0.1 }}
                 >
-                  Let&apos;s Collaborate
+                  {"Let's Collaborate"}
                 </motion.a>
               </div>
             </motion.div>

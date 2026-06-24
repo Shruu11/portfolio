@@ -35,7 +35,7 @@ export default function Footer() {
               {SITE_CONFIG.name}
             </h3>
             <p className="text-gray-400 italic">
-              &quot;Brewing pixels, one line at a time&quot;
+              {`"Brewing pixels, one line at a time"`}
             </p>
           </motion.div>
 
